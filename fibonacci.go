@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+ 
 func fibonacci() func() int {
     first, second := 0, 1
     return func() int {
