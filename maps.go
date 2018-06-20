@@ -7,13 +7,13 @@ import (
 
 func WordCount(s string) map[string]int {
 
-    // initialize the wordMap variable
+
     wordMap := make(map[string]int)
 
-    // separate the strings into words
+    // split sentences into words
     words := strings.Fields(s)
 
-    // iterate over the words to count each instance
+  
     for _, word := range words {
         wordMap[word]++
     }
